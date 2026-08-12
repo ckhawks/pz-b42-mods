@@ -1,0 +1,7 @@
+name=Storage Terminal
+id=storageTerminal
+description=A powered terminal that gives crafting, building, and the loot window access to every container linked to it. Requires Base Index.
+author=pz-b42-mods
+versionMin=42.0.0
+modversion=0.1
+require=baseIndex

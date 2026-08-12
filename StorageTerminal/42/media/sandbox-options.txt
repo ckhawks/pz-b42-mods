@@ -1,0 +1,51 @@
+VERSION = 1,
+
+option StorageTerminal.TerminalRange
+{
+    type = integer, min = 1, max = 40, default = 4, page = StorageTerminal, translation = StorageTerminal_TerminalRange,
+}
+
+option StorageTerminal.LinkRange
+{
+    type = integer, min = 1, max = 200, default = 25, page = StorageTerminal, translation = StorageTerminal_LinkRange,
+}
+
+option StorageTerminal.TerminalSpacing
+{
+    type = integer, min = 0, max = 200, default = 20, page = StorageTerminal, translation = StorageTerminal_TerminalSpacing,
+}
+
+option StorageTerminal.NetworkRange
+{
+    type = integer, min = 0, max = 200, default = 30, page = StorageTerminal, translation = StorageTerminal_NetworkRange,
+}
+
+option StorageTerminal.FloorCost
+{
+    type = integer, min = 1, max = 20, default = 3, page = StorageTerminal, translation = StorageTerminal_FloorCost,
+}
+
+option StorageTerminal.RequirePower
+{
+    type = boolean, default = true, page = StorageTerminal, translation = StorageTerminal_RequirePower,
+}
+
+option StorageTerminal.RequiredElectricalLevel
+{
+    type = integer, min = 0, max = 10, default = 3, page = StorageTerminal, translation = StorageTerminal_RequiredElectricalLevel,
+}
+
+option StorageTerminal.ConsumeMaterial
+{
+    type = boolean, default = true, page = StorageTerminal, translation = StorageTerminal_ConsumeMaterial,
+}
+
+option StorageTerminal.LinkTime
+{
+    type = integer, min = 1, max = 1000, default = 180, page = StorageTerminal, translation = StorageTerminal_LinkTime,
+}
+
+option StorageTerminal.TerminalBuildTime
+{
+    type = integer, min = 1, max = 2000, default = 400, page = StorageTerminal, translation = StorageTerminal_TerminalBuildTime,
+}

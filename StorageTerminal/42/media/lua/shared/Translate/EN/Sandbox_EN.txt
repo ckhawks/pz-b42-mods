@@ -1,0 +1,33 @@
+Sandbox_EN = {
+    Sandbox_StorageTerminal = "Storage Terminal",
+
+    Sandbox_StorageTerminal_TerminalRange = "Terminal use range",
+    Sandbox_StorageTerminal_TerminalRange_tooltip = "How close you must stand to a terminal to use its network. Small values make the terminal a place you walk to; large values make it an ambient base-wide effect.",
+
+    Sandbox_StorageTerminal_LinkRange = "Cable range",
+    Sandbox_StorageTerminal_LinkRange_tooltip = "How far a container can be from a terminal and still be linked to it. This is the main balance lever - a large value lets one terminal reach an entire warehouse.",
+
+    Sandbox_StorageTerminal_TerminalSpacing = "Minimum terminal spacing",
+    Sandbox_StorageTerminal_TerminalSpacing_tooltip = "How far apart two terminals must be built. Set to 0 to allow terminals anywhere, which effectively removes the use range limit.",
+
+    Sandbox_StorageTerminal_NetworkRange = "Terminal linking range",
+    Sandbox_StorageTerminal_NetworkRange_tooltip = "How far apart two terminals can be and still chain into one network, including across floors. Chaining is transitive, so a line of terminals covers a long base.",
+
+    Sandbox_StorageTerminal_FloorCost = "Cable cost per floor",
+    Sandbox_StorageTerminal_FloorCost_tooltip = "How many tiles of distance one storey counts as when terminals link vertically. Higher values make multi-floor networks harder to build.",
+
+    Sandbox_StorageTerminal_RequirePower = "Require electricity",
+    Sandbox_StorageTerminal_RequirePower_tooltip = "Terminals only work on a square with grid power or a running generator. Turn off to make the terminal a pure convenience feature.",
+
+    Sandbox_StorageTerminal_RequiredElectricalLevel = "Electrical level to link",
+    Sandbox_StorageTerminal_RequiredElectricalLevel_tooltip = "Electrical skill needed to wire a container into a network. Set to 0 to remove the skill gate.",
+
+    Sandbox_StorageTerminal_ConsumeMaterial = "Consume wire when linking",
+    Sandbox_StorageTerminal_ConsumeMaterial_tooltip = "Each container linked consumes one electric wire or electronics scrap. Turn off to require only the screwdriver.",
+
+    Sandbox_StorageTerminal_LinkTime = "Time to link a container",
+    Sandbox_StorageTerminal_LinkTime_tooltip = "How long wiring one container takes, in action ticks. Unlinking always takes a third of this.",
+
+    Sandbox_StorageTerminal_TerminalBuildTime = "Time to build a terminal",
+    Sandbox_StorageTerminal_TerminalBuildTime_tooltip = "How long converting a television into a terminal takes, in action ticks. Building also needs a screwdriver and consumes electronics scrap.",
+}
