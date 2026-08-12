@@ -1,0 +1,6 @@
+name=Loadout Restock
+id=loadoutRestock
+description=Save a loadout - what you wear, hold, and carry - then refill it from nearby containers in one action. Works with the Storage Terminal network when you are standing at one.
+author=pz-b42-mods
+versionMin=42.0.0
+modversion=0.1
