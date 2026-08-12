@@ -1,0 +1,22 @@
+VERSION = 1,
+
+option BaseBoard.GeneratorRange
+{
+    type = integer, min = 1, max = 100, default = 30, page = BaseBoard, translation = BaseBoard_GeneratorRange,
+}
+
+option BaseBoard.HungerPerPersonPerDay
+{
+    type = double, min = 0.1, max = 10.0, default = 1.0, page = BaseBoard, translation = BaseBoard_HungerPerPersonPerDay,
+}
+
+option BaseBoard.WaterPerPersonPerDay
+{
+    type = double, min = 0.1, max = 20.0, default = 2.0, page = BaseBoard, translation = BaseBoard_WaterPerPersonPerDay,
+}
+
+option BaseBoard.GeneratorBurnPerHour
+{
+    type = double, min = 0.1, max = 20.0, default = 2.0, page = BaseBoard, translation = BaseBoard_GeneratorBurnPerHour,
+}
+

@@ -1,0 +1,7 @@
+name=Base Board
+id=baseBoard
+description=A corkboard for long-term bases. Tracks supplies across your linked containers, generator fuel, and a shared task list players can claim from. Requires Base Index.
+author=pz-b42-mods
+versionMin=42.0.0
+modversion=0.1
+require=baseIndex

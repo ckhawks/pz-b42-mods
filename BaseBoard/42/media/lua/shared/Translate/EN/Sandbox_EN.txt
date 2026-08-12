@@ -1,0 +1,15 @@
+Sandbox_EN = {
+    Sandbox_BaseBoard = "Base Board",
+
+    Sandbox_BaseBoard_GeneratorRange = "Generator search range",
+    Sandbox_BaseBoard_GeneratorRange_tooltip = "How far from the board to look for a generator to report on. Only loaded squares are searched.",
+
+    Sandbox_BaseBoard_HungerPerPersonPerDay = "Food eaten per person per day",
+    Sandbox_BaseBoard_HungerPerPersonPerDay_tooltip = "Hunger units one survivor gets through in a day, used to estimate how many days of food the base has. Calibrate this from play - the true figure depends on traits and settings.",
+
+    Sandbox_BaseBoard_WaterPerPersonPerDay = "Water drunk per person per day",
+    Sandbox_BaseBoard_WaterPerPersonPerDay_tooltip = "Fluid units one survivor drinks in a day, used to estimate days of water remaining. Counts bottles in linked containers and rain barrels together.",
+
+    Sandbox_BaseBoard_GeneratorBurnPerHour = "Generator fuel burned per hour",
+    Sandbox_BaseBoard_GeneratorBurnPerHour_tooltip = "Fuel percentage a running generator uses each hour, before the game's own fuel consumption multiplier is applied. Used for the hours-remaining estimate.",
+}
