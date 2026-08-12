@@ -1,0 +1,6 @@
+name=Base Index
+id=baseIndex
+description=Shared library for the base board, loadout restock, and storage terminal mods. Registers containers, scans them safely across chunk boundaries, and caches item counts with timestamps. Provides no UI of its own.
+author=pz-b42-mods
+versionMin=42.0.0
+modversion=0.1
