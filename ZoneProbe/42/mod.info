@@ -1,0 +1,6 @@
+name=Zone Probe
+id=zoneProbe
+description=Read-only probe. Tests whether DesignationZone accepts a custom zone type, and whether such zones persist across a reload. Writes a report into Zomboid/Lua and changes nothing in game.
+author=pz-b42-mods
+versionMin=42.0.0
+modversion=1.0

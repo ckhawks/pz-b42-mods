@@ -1,0 +1,6 @@
+name=Container Inject Spike
+id=containerInject
+description=Throwaway spike for the storage terminal mod. Injects distant containers into the loot window to test whether crafting and building pick them up through ISInventoryPaneContextMenu.getContainers. Test mod, not a gameplay mod.
+author=pz-b42-mods
+versionMin=42.0.0
+modversion=1.0

@@ -1,0 +1,6 @@
+name=Photo Probe
+id=photoProbe
+description=Read-only probe for the polaroid mod. Reports which screenshot, file I/O, and texture functions Lua actually exposes, then attempts a PNG round trip. Writes report files into Zomboid/Lua and changes nothing in game.
+author=pz-b42-mods
+versionMin=42.0.0
+modversion=1.0
